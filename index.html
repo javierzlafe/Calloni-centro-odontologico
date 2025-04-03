@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Calloni</title>
+  <title>Calloni Dental Care</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -34,45 +34,89 @@
 <body class="index-page">
 
   <header id="header" class="header sticky-top">
-
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="d-none d-md-flex align-items-center">
-          <i class="bi bi-clock me-1"></i> Lunes a Sabados de 8:00 a 19:00 hs - guardias y urgencias
+          <i class="bi bi-clock me-1"></i> Lunes a Sábados de 8:00 a 19:00 hs - guardias y urgencias
         </div>
         <div class="d-flex align-items-center">
-          <i class="bi bi-phone me-1"></i> telefono: 11-3111-3251/11-6228-1786
+          <i class="bi bi-phone me-1"></i> Teléfono: 11-3111-3251 / 11-6228-1786
         </div>
       </div>
     </div><!-- End Top Bar -->
-
+  
     <div class="branding d-flex align-items-center">
-
-      <div class="container position-relative d-flex align-items-center justify-content-end">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="assets/img/callioni.png" alt="">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        
+        <!-- Ícono menú hamburguesa a la izquierda -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+  
+        <!-- Logo centrado -->
+        <a href="index.html" class="logo mx-auto">
+          <img src="assets/img/callioni.png" alt="Logo">
         </a>
-
-        <nav id="navmenu" class="navmenu">
+  
+        <nav id="navmenu" class="navmenu d-none d-xl-block">
           <ul>
             <li><a href="#hero" class="active">Inicio</a></li>
             <li><a href="#about">Sobre nosotros</a></li>
-            <li><a href="#tratamientos">tratamientos</a></li>
+            <li><a href="#tratamientos">Tratamientos</a></li>
             <li><a href="#contact">Contacto</a></li>
           </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
-      <a class=" cta-btn whatsapp-btn" href="https://wa.me/1131113251?text=Hola,%20vengo%20de%20la%20web%20y%20me%20gustaría%20reservar%20una%20cita" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-logo">
-        Reserva tu turno
-    </a>
-
+  
       </div>
-
     </div>
-
   </header>
+  
+  <!-- Botón flotante de WhatsApp -->
+  <a class="cta-btn whatsapp-btn" href="https://wa.me/1131113251?text=Hola,%20vengo%20de%20la%20web%20y%20me%20gustaría%20reservar%20una%20cita" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-logo">
+    Reserva tu cita
+  </a>
+  
+  <style>
+    /* Asegurar que el menú hamburguesa esté a la izquierda */
+    .mobile-nav-toggle {
+      font-size: 28px;
+      cursor: pointer;
+    }
+  
+    /* Centrar el logo */
+    .logo {
+      display: flex;
+      justify-content: center;
+    }
+  
+    /* Botón flotante de WhatsApp */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 12px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+  
+    .whatsapp-logo {
+      width: 24px;
+      height: 24px;
+    }
+  
+    /* Efecto de hover */
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+  
 
   <main class="main">
 
@@ -84,8 +128,8 @@
         <div class="carousel-item active">
           <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
           <div class="container">
-            <h2>Bienvenido a Calloni</h2>
-            <p>Tu sonrisa es nuestra prioridad. En Calloni, ofrecemos atención odontológica de calidad con tecnología de vanguardia y un equipo de especialistas dedicados a tu bienestar.</p>
+            <h2>Bienvenido a Calloni Dental Care</h2>
+            <p>Tu sonrisa es nuestra prioridad. En Calloni Dental Care, ofrecemos atención odontológica de calidad con tecnología de vanguardia y un equipo de especialistas dedicados a tu bienestar.</p>
             <a href="#about" class="btn-get-started">Conocenos</a>
           </div>
         </div><!-- End Carousel Item -->
@@ -145,7 +189,7 @@
           <h4><a href="" class="stretched-link">Ortodoncia y Brackets</a></h4>
           <p>Ofrecemos tratamientos de ortodoncia y brackets de alta calidad y personalizados para ayudarte a lograr una sorisa mas brillante y confiada </p>
         </div>
-      </div><!-- End Service Item -->
+      </div><!-- End Service Item --> 
 
       <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
         <div class="service-item position-relative">
@@ -217,7 +261,7 @@
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>Sobre Nosotros<br></h2>
-    <p>En Calloni, nos dedicamos a cuidar la salud bucal de nuestros pacientes con un enfoque personalizado y profesional.</p>
+    <p>En  Calloni Dental Care, nos dedicamos a cuidar la salud bucal de nuestros pacientes con un enfoque personalizado y profesional.</p>
   </div><!-- End Section Title -->
 
   <div class="container">
@@ -494,7 +538,7 @@
     </div>
 
     <div class="container copyright mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Calloni</strong> <span>Todos los derechos reservados</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Calloni Dental Care</strong> <span>Todos los derechos reservados</span></p>
       <div class="credits">
         Pagina creada por <a href="https://github.com/javierzlafe">Javier Gimenez</a>
       </div>
