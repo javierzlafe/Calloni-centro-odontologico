@@ -1984,4 +1984,36 @@ section,
       background-color: #1ebe57;
   }
 
- 
+
+
+
+  @media (max-width: 768px) {
+
+    .accordion-body img {
+      max-width: 20%; /* más chica que el 70% original */
+      height: auto;
+      display: block;
+      margin: 0 auto 15px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .tab-content .img-fluid {
+      max-width: 70%;
+      height: auto;
+      margin: 0 auto 15px auto; /* Centrado y espacio debajo */
+      border-radius: 10px;       /* Bordes redondeados para suavizar */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+  
+    .tab-content h3 {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  
+    .tab-content p {
+      text-align: justify;
+      font-size: 0.95rem;
+    }
+  }
+  
